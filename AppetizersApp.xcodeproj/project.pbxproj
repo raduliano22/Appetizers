@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		ECB5BA6328193CA300920BDF /* AppetizersAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5BA6228193CA300920BDF /* AppetizersAppApp.swift */; };
-		ECB5BA6528193CA300920BDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5BA6428193CA300920BDF /* ContentView.swift */; };
+		ECB5BA6528193CA300920BDF /* AppetizerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5BA6428193CA300920BDF /* AppetizerTabView.swift */; };
 		ECB5BA6728193CA400920BDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB5BA6628193CA400920BDF /* Assets.xcassets */; };
 		ECB5BA6A28193CA400920BDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB5BA6928193CA400920BDF /* Preview Assets.xcassets */; };
+		ECB5BA7128193EB800920BDF /* AppetizerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5BA7028193EB800920BDF /* AppetizerListView.swift */; };
+		ECB5BA7328193ECE00920BDF /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5BA7228193ECE00920BDF /* AccountView.swift */; };
+		ECB5BA7528193EE400920BDF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB5BA7428193EE400920BDF /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ECB5BA5F28193CA300920BDF /* AppetizersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppetizersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB5BA6228193CA300920BDF /* AppetizersAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizersAppApp.swift; sourceTree = "<group>"; };
-		ECB5BA6428193CA300920BDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ECB5BA6428193CA300920BDF /* AppetizerTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerTabView.swift; sourceTree = "<group>"; };
 		ECB5BA6628193CA400920BDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB5BA6928193CA400920BDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECB5BA7028193EB800920BDF /* AppetizerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListView.swift; sourceTree = "<group>"; };
+		ECB5BA7228193ECE00920BDF /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		ECB5BA7428193EE400920BDF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				ECB5BA6228193CA300920BDF /* AppetizersAppApp.swift */,
-				ECB5BA6428193CA300920BDF /* ContentView.swift */,
+				ECB5BA6428193CA300920BDF /* AppetizerTabView.swift */,
 				ECB5BA6628193CA400920BDF /* Assets.xcassets */,
 				ECB5BA6828193CA400920BDF /* Preview Content */,
+				ECB5BA7028193EB800920BDF /* AppetizerListView.swift */,
+				ECB5BA7228193ECE00920BDF /* AccountView.swift */,
+				ECB5BA7428193EE400920BDF /* OrderView.swift */,
 			);
 			path = AppetizersApp;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB5BA6528193CA300920BDF /* ContentView.swift in Sources */,
+				ECB5BA7328193ECE00920BDF /* AccountView.swift in Sources */,
+				ECB5BA6528193CA300920BDF /* AppetizerTabView.swift in Sources */,
 				ECB5BA6328193CA300920BDF /* AppetizersAppApp.swift in Sources */,
+				ECB5BA7128193EB800920BDF /* AppetizerListView.swift in Sources */,
+				ECB5BA7528193EE400920BDF /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
