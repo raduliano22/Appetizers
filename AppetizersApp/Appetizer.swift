@@ -19,7 +19,7 @@ struct Appetizer: Decodable, Identifiable {
 }
 
 //since our json is nested and our request is an array of appetizers we need to create this struct in order to mirror our network request
-struct AppetizerResponse {
+struct AppetizerResponse: Decodable {
     let request: [Appetizer]
 }
 
